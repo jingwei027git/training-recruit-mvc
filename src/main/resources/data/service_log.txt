@@ -1,0 +1,48 @@
+2018-05-27 00:26:38.592|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:22 | [Flyway] Starting ...
+2018-05-27 00:26:38.611|INFO |localhost-startStop-1| org.flywaydb.core.internal.util.VersionPrinter:44 | Flyway 4.0.3 by Boxfuse
+2018-05-27 00:26:38.636|INFO |localhost-startStop-1| o.f.core.internal.dbsupport.DbSupportFactory:44 | Database: jdbc:mysql://localhost:33061/attraction?useUnicode=true&characterEncoding=utf-8&useSSL=false (MySQL 5.7)
+2018-05-27 00:26:38.701|INFO |localhost-startStop-1| o.f.core.internal.metadatatable.MetaDataTableImpl:44 | Repair of failed migration in metadata table `attraction`.`schema_version` not necessary. No failed migration detected.
+2018-05-27 00:26:38.746|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Successfully repaired metadata table `attraction`.`schema_version` (execution time 00:00.051s).
+2018-05-27 00:26:38.746|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Manual cleanup of the remaining effects the failed migration may still be required.
+2018-05-27 00:26:38.855|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Current version of schema `attraction`: 1797.1
+2018-05-27 00:26:38.855|WARN |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:48 | outOfOrder mode is active. Migration of schema `attraction` may not be reproducible.
+2018-05-27 00:26:38.857|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Schema `attraction` is up to date. No migration necessary.
+2018-05-27 00:26:38.861|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:30 | flyway migrate : 0
+2018-05-27 00:26:38.866|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:35 | [Flyway] Finished ...
+2018-05-27 00:26:38.866|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:36 | 
+2018-05-27 00:40:12.197|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:22 | [Flyway] Starting ...
+2018-05-27 00:40:12.216|INFO |localhost-startStop-1| org.flywaydb.core.internal.util.VersionPrinter:44 | Flyway 4.0.3 by Boxfuse
+2018-05-27 00:40:12.241|INFO |localhost-startStop-1| o.f.core.internal.dbsupport.DbSupportFactory:44 | Database: jdbc:mysql://localhost:33061/attraction?useUnicode=true&characterEncoding=utf-8&useSSL=false (MySQL 5.7)
+2018-05-27 00:40:12.308|INFO |localhost-startStop-1| o.f.core.internal.metadatatable.MetaDataTableImpl:44 | Repair of failed migration in metadata table `attraction`.`schema_version` not necessary. No failed migration detected.
+2018-05-27 00:40:12.349|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Successfully repaired metadata table `attraction`.`schema_version` (execution time 00:00.048s).
+2018-05-27 00:40:12.349|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Manual cleanup of the remaining effects the failed migration may still be required.
+2018-05-27 00:40:12.437|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Current version of schema `attraction`: 1797.1
+2018-05-27 00:40:12.437|WARN |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:48 | outOfOrder mode is active. Migration of schema `attraction` may not be reproducible.
+2018-05-27 00:40:12.438|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Schema `attraction` is up to date. No migration necessary.
+2018-05-27 00:40:12.441|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:30 | flyway migrate : 0
+2018-05-27 00:40:12.444|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:35 | [Flyway] Finished ...
+2018-05-27 00:40:12.445|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:36 | 
+2018-05-27 22:59:20.612|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:22 | [Flyway] Starting ...
+2018-05-27 22:59:20.638|INFO |localhost-startStop-1| org.flywaydb.core.internal.util.VersionPrinter:44 | Flyway 4.0.3 by Boxfuse
+2018-05-27 22:59:20.668|INFO |localhost-startStop-1| o.f.core.internal.dbsupport.DbSupportFactory:44 | Database: jdbc:mysql://localhost:33061/attraction?useUnicode=true&characterEncoding=utf-8&useSSL=false (MySQL 5.7)
+2018-05-27 22:59:20.752|INFO |localhost-startStop-1| o.f.core.internal.metadatatable.MetaDataTableImpl:44 | Repair of failed migration in metadata table `attraction`.`schema_version` not necessary. No failed migration detected.
+2018-05-27 22:59:20.792|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Successfully repaired metadata table `attraction`.`schema_version` (execution time 00:00.046s).
+2018-05-27 22:59:20.792|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Manual cleanup of the remaining effects the failed migration may still be required.
+2018-05-27 22:59:20.872|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Current version of schema `attraction`: 1797.1
+2018-05-27 22:59:20.873|WARN |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:48 | outOfOrder mode is active. Migration of schema `attraction` may not be reproducible.
+2018-05-27 22:59:20.874|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Schema `attraction` is up to date. No migration necessary.
+2018-05-27 22:59:20.878|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:30 | flyway migrate : 0
+2018-05-27 22:59:20.881|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:35 | [Flyway] Finished ...
+2018-05-27 22:59:20.881|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:36 | 
+2018-05-27 23:07:15.795|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:22 | [Flyway] Starting ...
+2018-05-27 23:07:15.815|INFO |localhost-startStop-1| org.flywaydb.core.internal.util.VersionPrinter:44 | Flyway 4.0.3 by Boxfuse
+2018-05-27 23:07:15.839|INFO |localhost-startStop-1| o.f.core.internal.dbsupport.DbSupportFactory:44 | Database: jdbc:mysql://localhost:33061/attraction?useUnicode=true&characterEncoding=utf-8&useSSL=false (MySQL 5.7)
+2018-05-27 23:07:15.912|INFO |localhost-startStop-1| o.f.core.internal.metadatatable.MetaDataTableImpl:44 | Repair of failed migration in metadata table `attraction`.`schema_version` not necessary. No failed migration detected.
+2018-05-27 23:07:15.957|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Successfully repaired metadata table `attraction`.`schema_version` (execution time 00:00.054s).
+2018-05-27 23:07:15.957|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbRepair:44 | Manual cleanup of the remaining effects the failed migration may still be required.
+2018-05-27 23:07:16.065|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Current version of schema `attraction`: 1797.1
+2018-05-27 23:07:16.065|WARN |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:48 | outOfOrder mode is active. Migration of schema `attraction` may not be reproducible.
+2018-05-27 23:07:16.067|INFO |localhost-startStop-1| org.flywaydb.core.internal.command.DbMigrate:44 | Schema `attraction` is up to date. No migration necessary.
+2018-05-27 23:07:16.070|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:30 | flyway migrate : 0
+2018-05-27 23:07:16.073|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:35 | [Flyway] Finished ...
+2018-05-27 23:07:16.073|INFO |localhost-startStop-1| com.softpower.application.FlywayBean:36 | 
