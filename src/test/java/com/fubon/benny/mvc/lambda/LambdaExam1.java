@@ -12,10 +12,12 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -139,7 +141,7 @@ public class LambdaExam1 {
 
     final List<String> names = Arrays.asList("jack", "mary", "naomi", "claire", "Dick");
     // TODO 請輸出所有名字
-    Stream.of(names).forEach(System.out::println);
+    Stream.of(names).flatMap(name->name.stream()).forEach(System.out::println);
 
   }
 
@@ -198,7 +200,8 @@ public class LambdaExam1 {
     BigDecimal totalPrice =cars.stream()
       .filter(car -> car.getColor()!=Color.BLACK)
       .map(Car::getPrice)
-      .reduce(BigDecimal.ZERO,(acc,val)->acc.add(val));
+      //.reduce(BigDecimal.ZERO,(acc,val)->acc.add(val));
+      .reduce(BigDecimal.ZERO,BigDecimal::add);
 
     System.out.println(totalPrice);
 
